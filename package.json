@@ -1,5 +1,5 @@
 {
-  "name": "vikram-portfolio-backend",
+  "name": "backend",
   "version": "1.0.0",
   "dependencies": {
     "cors": "^2.8.6",
