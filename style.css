@@ -1,0 +1,75 @@
+body{
+margin:0;
+font-family: Arial;
+background-color: #0f172a;
+color: #e2e8f0;
+}
+
+/* HEADER */
+header{
+background: rgba(0,0,0,0.7);
+backdrop-filter: blur(10px);
+color:white;
+display:flex;
+justify-content:space-between;
+padding:15px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+/* HERO SECTION (AI BACKGROUND) */
+.hero{
+background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+url("images/ai-bg.jpg");
+background-size: cover;
+background-position: center;
+height: 100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+/* ABOUT */
+#about{
+display:flex;
+gap:30px;
+padding:40px;
+}
+
+/* SKILLS */
+#skills{
+background: linear-gradient(to right,#0f2027,#203a43,#2c5364);
+padding:40px;
+}
+
+/* RESUME */
+#resume{
+padding:40px;
+text-align:center;
+}
+
+/* CONTACT */
+#contact{
+padding:40px;
+}
+
+input, textarea{
+width:100%;
+margin:10px 0;
+padding:10px;
+}
+
+button{
+background:#2d6cdf;
+color:white;
+border:none;
+padding:10px;
+border-radius:5px;
+}
