@@ -1,73 +1,105 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title>My Portfolio</title>
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
 
-<header>
-<h2>Sharan O</h2>
-<nav>
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#resume">Resume</a>
-<a href="#contact">Contact</a>
-</nav>
-</header>
+  <!-- HEADER -->
+  <header>
+    <h2>Sharan O </h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<section class="hero">
-<h1>Machine Learning Engineer (Aspiring)</h1>
-<p>BSc Artificial Intelligence & Machine Learning</p>
-</section>
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Aspiring AI Engineer</h1>
+    <p>BSc Artificial Intelligence & Machine Learning</p>
+  </section>
 
-<section id="about">
-<img src="images/profile.jpg" width="200">
-<h2>About Me</h2>
-<p>
-My name is Sharan O . I am pursuing BSc in Artificial Intelligence
-and Machine Learning. I aspire to become a Machine Learning Engineer
-and enjoy solving problems using programming and data.
-</p>
-</section>
+  <!-- ABOUT -->
+  <section id="about">
+    <img src="images/profile.jpg" width="200">
+    <h2>About Me</h2>
+    <p>
+      Hi, Im Sharan O — an aspiring Machine Learning Engineer driven by curiosity and innovation. 
+      Currently pursuing a BSc in Artificial Intelligence and Machine Learning, 
+      I like solving problems using code, data, and logic. I believe in learning by building,
+       and I am constantly working on improving my skills to create useful and impactful solutions.
+    </p>
+  </section>
 
-<section id="skills">
-<h2>Skills & Technologies</h2>
-<ul>
-<li>C Programming</li>
-<li>Python</li>
-<li>Data Structures</li>
-<li>R Language</li>
-<li>HTML & CSS</li>
-<li>AIML Basics</li>
-<li>MongoDB</li>
-<li>Node.js</li>
-</ul>
-</section>
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills & Technologies</h2>
+    <ul>
+      <li>C Programming</li>
+      <li>HTML AND CSS</li>
+      <li>Data Structures</li>
+      <li>R Language</li>
+      <li>AIML BASICS</li>
+      <li>RDBMS</li>
+      <li>MongoDB</li>
+  
+    </ul>
+  </section>
 
-<section id="resume">
-<h2>Resume</h2>
-<a href="#">Download Resume</a>
-</section>
+  <!-- RESUME -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="#">Download Resume</a>
+  </section>
 
-<section id="contact">
-<h2>Get In Touch</h2>
-<p>India</p>
-<p>Phone: +91 8904739109</p>
-<p>Email: 25aimb53@kristujayanti.com</p>
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Get In Touch</h2>
 
-<form>
-<input type="text" placeholder="Your Name"><br>
-<input type="email" placeholder="Your Email"><br>
-<textarea placeholder="Your Message"></textarea><br>
-<button>Send Message</button>
-</form>
+    <p>India</p>
+    <p>Phone: +91 8904739109</p>
+    <p>Email: 25aimb53@kristujayanti.com</p>
 
-</section>
+    <!-- UPDATED FORM -->
+    <form id="contactForm">
 
-<script src="script.js"></script>
+      <input type="text" id="name" placeholder="Your Name" required><br>
+
+      <input type="email" id="email" placeholder="Your Email" required><br>
+
+      <textarea id="message" placeholder="Your Message" required></textarea><br>
+
+      <button id="submitBtn">
+        <i class="fas fa-paper-plane"></i>
+        <span>Send Message</span>
+      </button>
+
+    </form>
+
+    <!-- STATUS MESSAGE -->
+    <div id="status"></div>
+
+  </section>
+
+  <!-- JS -->
+  <script src="script.js"></script>
 
 </body>
+
 </html>

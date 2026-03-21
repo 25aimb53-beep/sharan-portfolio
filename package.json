@@ -12,6 +12,18 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "mongodb": "^7.1.0"
-  }
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/25aimb53-beep/sharan-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/25aimb53-beep/sharan-portfolio/issues"
+  },
+  "homepage": "https://github.com/25aimb53-beep/sharan-portfolio#readme"
 }
