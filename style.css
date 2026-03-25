@@ -159,6 +159,7 @@ button:hover {
   transform: scale(1.05);
   box-shadow: 0 0 15px rgba(79, 172, 254, 0.6);
 }
+<<<<<<< HEAD
 #experience {
   padding: 50px 20px;
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
@@ -191,3 +192,5 @@ button:hover {
 .card li {
   margin-bottom: 8px;
 }
+=======
+>>>>>>> 7b7776d01de11864d5f77cc64abfa14528e0d64c
