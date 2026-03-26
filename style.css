@@ -159,7 +159,6 @@ button:hover {
   transform: scale(1.05);
   box-shadow: 0 0 15px rgba(79, 172, 254, 0.6);
 }
-<<<<<<< HEAD
 #experience {
   padding: 50px 20px;
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
@@ -192,5 +191,113 @@ button:hover {
 .card li {
   margin-bottom: 8px;
 }
-=======
->>>>>>> 7b7776d01de11864d5f77cc64abfa14528e0d64c
+/* Experience Section Improvements */
+.exp-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  margin: 30px auto;
+  max-width: 800px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.exp-card h3 {
+  margin-bottom: 15px;
+  color: #00c6ff;
+}
+
+.exp-card p {
+  line-height: 1.7;
+}
+
+.exp-card li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+/* SECTION STYLE */
+.journey-modern,
+.skills-modern {
+  padding: 120px 20px;
+  background: linear-gradient(135deg, #0b1c2c, #112d42);
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.8rem;
+  margin-bottom: 60px;
+  color: #00e5ff;
+}
+
+/* JOURNEY PATH */
+.journey-path {
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.journey-path::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #00e5ff;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background: #00e5ff;
+  border-radius: 50%;
+  margin-right: 20px;
+  box-shadow: 0 0 15px #00e5ff;
+}
+
+.content h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.content p {
+  color: #bbb;
+}
+
+/* SKILLS */
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.skill-box {
+  width: 300px;
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.05);
+  transition: 0.4s;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.skill-box:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 25px #00e5ff;
+}
+
+.skill-box h3 {
+  margin-bottom: 15px;
+}
+
+.skill-box p {
+  color: #ccc;
+}
